@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start": "tsx -r dotenv/config index.ts"
+  },
+  "dependencies": {
+    "@cosmjs/proto-signing": "^0.31.1",
+    "@cosmjs/stargate": "^0.31.1",
+    "@graz-sh/style-guide-core": "^4.0.1",
+    "@types/node": "^18.17.12",
+    "cosmjs-types": "^0.8.0",
+    "eslint": "^8.48.0",
+    "prettier": "^3.0.3",
+    "tsx": "^3.12.8"
+  },
+  "prettier": "@graz-sh/style-guide-core/prettier",
+  "private": true
+}
